@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sama.sellkro" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".sellkro"
+            android:label="@string/title_activity_sellkro" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".signup"
+            android:label="@string/title_activity_signup" >
+        </activity>
+        <activity
+            android:name=".login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".userui"
+            android:label="@string/title_activity_userui" >
+        </activity>
+        <activity
+            android:name=".menu"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name=".adminui"
+            android:label="@string/title_activity_adminui" >
+        </activity>
+        <activity
+            android:name=".adminmenu"
+            android:label="@string/title_activity_adminmenu" >
+        </activity>
+        <activity
+            android:name=".allusers"
+            android:label="@string/title_activity_allusers" >
+        </activity>
+        <activity
+            android:name=".allads"
+            android:label="@string/title_activity_allads" >
+        </activity>
+        <activity
+            android:name=".categories"
+            android:label="@string/title_activity_categories" >
+        </activity>
+        <activity
+            android:name=".adminedit"
+            android:label="@string/title_activity_adminedit" >
+        </activity>
+        <activity
+            android:name=".myprofile"
+            android:label="@string/title_activity_myprofile" >
+        </activity>
+        <activity
+            android:name=".uallads"
+            android:label="@string/title_activity_uallads" >
+        </activity>
+        <activity
+            android:name=".usavedads"
+            android:label="@string/title_activity_usavedads" >
+        </activity>
+        <activity
+            android:name=".umyads"
+            android:label="@string/title_activity_umyads" >
+        </activity>
+        <activity
+            android:name=".upost"
+            android:label="@string/title_activity_upost" >
+        </activity>
+        <activity
+            android:name=".sell"
+            android:label="@string/title_activity_sell" >
+        </activity>
+        <activity
+            android:name=".AddAdmin"
+            android:label="@string/title_activity_test" >
+        </activity>
+        <activity
+            android:name=".newcat"
+            android:label="@string/title_activity_newcat" >
+        </activity>
+        <activity
+            android:name=".SelcectCat"
+            android:label="@string/title_activity_selcect_cat" >
+        </activity>
+        <activity
+            android:name=".selectadcat"
+            android:label="@string/title_activity_selectadcat" >
+        </activity>
+        <activity
+            android:name=".item_select"
+            android:label="@string/title_activity_item_select" >
+        </activity>
+        <activity
+            android:name=".spintut"
+            android:label="@string/title_activity_spintut" >
+        </activity>
+        <activity
+            android:name=".thispost"
+            android:label="@string/title_activity_thispost" >
+        </activity>
+        <activity
+            android:name=".postList"
+            android:label="@string/title_activity_post_list" >
+        </activity>
+        <activity
+            android:name=".randomPost"
+            android:label="@string/title_activity_random_post" >
+        </activity>
+        <activity
+            android:name=".userProfile"
+            android:label="@string/title_activity_user_profile" >
+        </activity>
+        <activity
+            android:name=".editProfile"
+            android:label="@string/title_activity_edit_profile" >
+        </activity>
+        <activity
+            android:name=".randomPostadmin"
+            android:label="@string/title_activity_random_postadmin" >
+        </activity>
+    </application>
+
+</manifest>

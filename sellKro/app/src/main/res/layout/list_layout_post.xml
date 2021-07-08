@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="230dp"
+        android:id="@+id/userPosition"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:text="Belal Khan" />
+
+        <TextView
+            android:id="@+id/textViewCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Technical"/>
+
+        <TextView
+            android:id="@+id/textViewPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INR 40000" />
+
+        <TextView
+            android:id="@+id/textViewJoiningDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="2017-09-30 10:00:00" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right">
+
+        <Button
+            android:id="@+id/buttonEditPost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#c9ac5d"
+            android:layout_marginBottom="5dp"
+            android:text="Edit" />
+
+        <Button
+            android:id="@+id/buttonDeletePost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#68baab"
+            android:text="Delete" />
+
+        </LinearLayout>
+
+
+</LinearLayout>
